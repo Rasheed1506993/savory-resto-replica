@@ -60,8 +60,8 @@ export default {
         },
       },
       fontFamily: {
-        display: ["Playfair Display", "serif"],
-        body: ["Inter", "sans-serif"],
+        display: ["Playfair Display", "Amiri", "serif"],
+        body: ["Inter", "Cairo", "sans-serif"],
       },
       keyframes: {
         "fade-up": {
