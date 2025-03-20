@@ -1,95 +1,70 @@
-
-interface Translations {
-  [key: string]: {
-    [key: string]: string;
-  };
-}
-
-export const translations: Translations = {
+export const translations = {
   en: {
-    // Navbar
-    "about": "About",
-    "menu": "Menu",
-    "hours": "Hours",
-    "contact": "Contact",
-    "reserve": "Reserve",
-    
-    // Hero
-    "restaurant_name": "Savory",
-    "tagline": "Fine dining at its finest",
-    "make_reservation": "Make a Reservation",
-    
-    // About
-    "our_story": "Our Story",
-    "story_description": "A culinary journey that began over two decades ago, bringing together the finest ingredients and traditional techniques to create unforgettable dining experiences.",
-    "master_chefs": "Master Chefs",
-    "chefs_description": "Culinary experts with decades of experience",
-    "fresh_ingredients": "Fresh Ingredients",
-    "ingredients_description": "Locally sourced, seasonal produce",
-    "perfect_timing": "Perfect Timing",
-    "timing_description": "Each dish served at its peak",
-    
-    // Menu
-    "featured_menu": "Featured Menu",
-    "menu_description": "Discover our chef's specially curated selection of dishes",
-    "grilled_sea_bass": "Grilled Sea Bass",
-    "sea_bass_description": "Fresh sea bass with herbs and lemon butter sauce",
-    "truffle_risotto": "Truffle Risotto", 
-    "risotto_description": "Creamy risotto with fresh black truffle and parmesan",
-    "wagyu_steak": "Wagyu Steak",
-    "steak_description": "Premium wagyu beef with roasted vegetables",
-    
-    // Hours & Contact
-    "hours_title": "Hours",
-    "monday_thursday": "Monday - Thursday:",
-    "friday_saturday": "Friday - Saturday:",
-    "sunday": "Sunday:",
-    "contact_title": "Contact",
-    
-    // Footer
-    "copyright": "© 2024 Savory Restaurant. All rights reserved."
+    restaurant_name: "Gourmet Restaurant",
+    tagline: "Experience the art of fine dining.",
+    make_reservation: "Make a Reservation",
+    our_story: "Our Story",
+    story_description: "From humble beginnings, our restaurant has grown into a culinary haven, celebrated for its innovative dishes and impeccable service. Our chefs are dedicated to creating unforgettable dining experiences using only the freshest, locally-sourced ingredients.",
+    master_chefs: "Master Chefs",
+    chefs_description: "Our team of award-winning chefs brings passion and creativity to every dish, ensuring a symphony of flavors that will tantalize your taste buds.",
+    fresh_ingredients: "Fresh Ingredients",
+    ingredients_description: "We believe in using only the freshest, locally-sourced ingredients to create dishes that are both delicious and sustainable.",
+    perfect_timing: "Perfect Timing",
+    timing_description: "From preparation to presentation, we pay attention to every detail to ensure that your dining experience is nothing short of perfection.",
+    featured_menu: "Featured Menu",
+    menu_description: "Explore our exquisite menu, featuring a curated selection of dishes crafted with passion and precision.",
+    grilled_sea_bass: "Grilled Sea Bass",
+    sea_bass_description: "Delicate sea bass grilled to perfection, served with seasonal vegetables and a lemon-butter sauce.",
+    truffle_risotto: "Truffle Risotto",
+    risotto_description: "Creamy risotto infused with the rich aroma of black truffles, topped with Parmesan cheese.",
+    wagyu_steak: "Wagyu Steak",
+    steak_description: "Succulent Wagyu steak grilled to your liking, accompanied by roasted potatoes and a red wine reduction.",
+    hours_title: "Hours",
+    monday_thursday: "Monday - Thursday",
+    friday_saturday: "Friday - Saturday",
+    sunday: "Sunday",
+    contact_title: "Contact",
+    about: "About",
+    menu: "Menu",
+    hours: "Hours",
+    contact: "Contact",
+    reserve: "Reserve",
+    copyright: "© 2024 Gourmet Restaurant. All rights reserved.",
+    developer_info: "Developer by Mazen Sharaf AL-Deen",
+    developer_email: "Email: mazen1221cool@gmail.com"
   },
   ar: {
-    // Navbar
-    "about": "من نحن",
-    "menu": "القائمة",
-    "hours": "ساعات العمل",
-    "contact": "تواصل معنا",
-    "reserve": "احجز الآن",
-    
-    // Hero
-    "restaurant_name": "سافوري",
-    "tagline": "أرقى تجارب الطعام",
-    "make_reservation": "احجز طاولتك",
-    
-    // About
-    "our_story": "قصتنا",
-    "story_description": "رحلة طهي بدأت منذ أكثر من عقدين، تجمع بين أفخر المكونات والتقنيات التقليدية لخلق تجارب طعام لا تُنسى.",
-    "master_chefs": "طهاة محترفون",
-    "chefs_description": "خبراء الطهي بخبرة عشرات السنين",
-    "fresh_ingredients": "مكونات طازجة",
-    "ingredients_description": "منتجات موسمية من مصادر محلية",
-    "perfect_timing": "توقيت مثالي",
-    "timing_description": "كل طبق يُقدم في ذروة نضجه",
-    
-    // Menu
-    "featured_menu": "قائمة مميزة",
-    "menu_description": "اكتشف مجموعة الأطباق المختارة خصيصًا من قبل الشيف",
-    "grilled_sea_bass": "سمك القاروص المشوي",
-    "sea_bass_description": "سمك قاروص طازج مع الأعشاب وصلصة الليمون بالزبدة",
-    "truffle_risotto": "ريزوتو الكمأة",
-    "risotto_description": "ريزوتو كريمي مع الكمأة السوداء الطازجة وجبنة البارميزان",
-    "wagyu_steak": "ستيك واغيو",
-    "steak_description": "لحم واغيو ممتاز مع الخضروات المشوية",
-    
-    // Hours & Contact
-    "hours_title": "ساعات العمل",
-    "monday_thursday": "الإثنين - الخميس:",
-    "friday_saturday": "الجمعة - السبت:",
-    "sunday": "الأحد:",
-    "contact_title": "تواصل معنا",
-    
-    // Footer
-    "copyright": "© 2024 مطعم سافوري. جميع الحقوق محفوظة."
+    restaurant_name: "مطعم جورميه",
+    tagline: "استمتع بفن الطعام الفاخر.",
+    make_reservation: "إحجز الآن",
+    our_story: "قصتنا",
+    story_description: "من بدايات متواضعة، نما مطعمنا ليصبح ملاذًا لفنون الطهي، يحتفى بأطباقه المبتكرة وخدمته التي لا تشوبها شائبة. يكرس طهاتنا جهودهم لخلق تجارب تناول طعام لا تُنسى باستخدام المكونات الطازجة والمحلية المصدر فقط.",
+    master_chefs: "كبار الطهاة",
+    chefs_description: "يجلب فريق الطهاة الحائز على جوائز لدينا الشغف والإبداع إلى كل طبق، مما يضمن سيمفونية من النكهات التي ستثير ذوقك.",
+    fresh_ingredients: "مكونات طازجة",
+    ingredients_description: "نحن نؤمن باستخدام المكونات الطازجة والمحلية المصدر فقط لإنشاء أطباق لذيذة ومستدامة.",
+    perfect_timing: "توقيت مثالي",
+    timing_description: "من التحضير إلى التقديم، نولي اهتمامًا بكل التفاصيل لضمان أن تكون تجربة تناول الطعام الخاصة بك لا تقل عن الكمال.",
+    featured_menu: "قائمة الطعام المميزة",
+    menu_description: "استكشف قائمتنا الرائعة، التي تضم مجموعة مختارة من الأطباق المصنوعة بشغف ودقة.",
+    grilled_sea_bass: "قاروص مشوي",
+    sea_bass_description: "قاروص طازج مشوي على أكمل وجه، يقدم مع الخضار الموسمية وصلصة الزبدة بالليمون.",
+    truffle_risotto: "ريزوتو الكمأة",
+    risotto_description: "ريزوتو كريمي مملوء برائحة الكمأ الأسود الغنية، يعلوه جبن البارميزان.",
+    wagyu_steak: "ستيك واغيو",
+    steak_description: "شريحة لحم واغيو عصارية مشوية حسب رغبتك، مصحوبة بالبطاطا المشوية وصلصة النبيذ الأحمر.",
+    hours_title: "ساعات العمل",
+    monday_thursday: "الاثنين - الخميس",
+    friday_saturday: "الجمعة - السبت",
+    sunday: "الأحد",
+    contact_title: "اتصل بنا",
+    about: "حول",
+    menu: "قائمة الطعام",
+    hours: "ساعات العمل",
+    contact: "اتصل",
+    reserve: "احجز",
+    copyright: "© 2024 مطعم جورميه. جميع الحقوق محفوظة.",
+    developer_info: "تم التطوير بواسطة مازن شرف الدين",
+    developer_email: "البريد الإلكتروني: mazen1221cool@gmail.com"
   }
 };

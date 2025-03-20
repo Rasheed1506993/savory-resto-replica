@@ -169,7 +169,11 @@ const Index = () => {
       <footer className="bg-restaurant-black text-white py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="font-display text-2xl mb-4">{t("restaurant_name")}</p>
-          <p className="text-gray-400">{t("copyright")}</p>
+          <p className="text-gray-400 mb-2">{t("copyright")}</p>
+          <div className="text-gray-500 text-sm">
+            <p>Developer by Mazen Sharaf AL-Deen</p>
+            <p>Email: mazen1221cool@gmail.com</p>
+          </div>
         </div>
       </footer>
     </div>
